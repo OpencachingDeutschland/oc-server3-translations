@@ -1,0 +1,7 @@
+---
+field_notes:
+  log_type:
+    1: 'Funnet'
+    2: 'Ikke funnet'
+    3: 'Skriv notat'
+    1000: 'Trenger tilsyn'

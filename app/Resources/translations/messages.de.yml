@@ -1,0 +1,54 @@
+---
+general:
+  error:
+    unknown_error: 'Ein unbekannter Fehler ist aufgetreten!'
+language:
+  de: 'Deutsch'
+  en: 'Englisch'
+field_notes:
+  btn:
+    delete: Löschen
+    delete_selected: 'Markierte löschen'
+    log_it: 'Loggen'
+    upload: Hochladen
+  #Desc: Y-m-d H:i
+  date_format: 'd.m.Y H:i'
+  error:
+    line_prefix: 'Zeile %line%:'
+    wrong_file_format: 'Die hochgeladene Datei ist keine Field Notes Datei.'
+  field_notes: 'Field Notes'
+  header:
+    actions: Aktionen
+    date: Datum
+    geocache: Cache
+    log_type: 'Logtyp'
+  msg:
+    no_field_notes: 'Du hast keine Field Notes hochgeladen.'
+    upload_new_field_notes: 'Neue Field Notes hochladen'
+  success:
+    deleted: 'Die Field Note wurde gelöscht.'
+    deleted_multiple: 'Die Field Notes wurden erfolgreich gelöscht.'
+  upload:
+    label:
+      ignore: 'Field Notes vor %date% ignorieren'
+    file: 'Field Notes Datei (geocache_visits.txt)'
+    success: 'Field Notes wurden hochgeladen.'
+geocache:
+  type:
+    drivein: 'Drive in Cache'
+    event: 'Event Cache'
+    math: 'Mathe/Physik Cache'
+    moving: 'Beweglicher Cache'
+    multi: 'Multi Cache'
+    quiz: 'Rätselcache'
+    traditional: 'Normaler Cache'
+    unknown: 'Unbekannter Cache'
+    virtual: 'Virtueller Cache'
+    webcam: 'Webcam Cache'
+page:
+  fallback:
+    wrong_locale: 'Diese Seite ist in deiner Sprache nicht verfügbar. Alternativ zeigen wir dir die %language% Version.'
+    not_translated: 'Diese Seite hat derzeit keine Übersetzung.'
+array_util:
+  human_lang_implode:
+    and: 'und'

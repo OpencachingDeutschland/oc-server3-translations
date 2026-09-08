@@ -1,0 +1,54 @@
+---
+general:
+  error:
+    unknown_error: 'An unknown error occurred!'
+language:
+  de: 'German'
+  en: 'English'
+field_notes:
+  btn:
+    delete: Borrar
+    delete_selected: 'Borrar selección'
+    log_it: 'Registrar'
+    upload: Subir datos
+  #Desc: Y-m-d H:i
+  date_format: 'Y-m-d H:i'
+  error:
+    line_prefix: 'Line %line%:'
+    wrong_file_format: 'Este archivo no parece ser un archivo de notas de campo.'
+  field_notes: 'Nota de campo'
+  header:
+    actions: Acciones
+    date: Fecha
+    geocache: Caché
+    log_type: 'Tipo de registro'
+  msg:
+    no_field_notes: 'No tienes ninguna Nota de Campo.'
+    upload_new_field_notes: 'Añadir nuevas Notas de Campo'
+  success:
+    deleted: 'Nota de Campo eliminada con éxito.'
+    deleted_multiple: 'Notas de Campo eliminadas con éxito.'
+  upload:
+    label:
+      ignore: 'Ignorar Notas de Campo anteriores a %date%'
+    file: 'Archivo de Notas de Campo (geocache_visits.txt)'
+    success: 'Notas de Campo cargadas con éxito.'
+geocache:
+  type:
+    drivein: 'Caché en Coche'
+    event: 'Evento'
+    math: 'Caché Matem./Física'
+    moving: 'Caché Itinerante'
+    multi: 'Multi-caché'
+    quiz: 'Caché Puzzle'
+    traditional: 'Caché Tradicional'
+    unknown: 'Caché indefinido'
+    virtual: 'Caché Virtual'
+    webcam: 'Caché de Cámara web'
+page:
+  fallback:
+    wrong_locale: 'This page is not available in your language. As an alternative we display the %language% version for you.'
+    not_translated: 'This page currently has no translation.'
+array_util:
+  human_lang_implode:
+    and: 'y'

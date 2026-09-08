@@ -1,0 +1,54 @@
+---
+general:
+  error:
+    unknown_error: 'Een onbekende fout is opgetreden!'
+language:
+  de: 'Duits'
+  en: 'Engels'
+field_notes:
+  btn:
+    delete: Verwijderen
+    delete_selected: 'Verwijder geselecteerde'
+    log_it: 'Loggen'
+    upload: Uploaden
+  #Desc: Y-m-d H:i
+  date_format: 'd.m.Y H:i'
+  error:
+    line_prefix: 'Regel %line%:'
+    wrong_file_format: 'Het lijkt zo dat deze bestand geen field notes heeft.'
+  field_notes: 'Veld notities'
+  header:
+    actions: Acties
+    date: Datum
+    geocache: Cache
+    log_type: 'Logsoort'
+  msg:
+    no_field_notes: 'Je hebt geen Field Notes.'
+    upload_new_field_notes: 'Upload nieuw Field Notes'
+  success:
+    deleted: 'Field Note met sucess gewist.'
+    deleted_multiple: 'Field Notes met sucess gewist.'
+  upload:
+    label:
+      ignore: 'Negere Field Notes voor %date%'
+    file: 'Field Notes bestand (geocache_visits.txt)'
+    success: 'Field Notes met sucess geüpload.'
+geocache:
+  type:
+    drivein: 'Snelle cache'
+    event: 'Evenement'
+    math: 'Wiskunde/natuurkunde cache'
+    moving: 'Bewegende cache'
+    multi: 'Multi cache'
+    quiz: 'Puzzel cache'
+    traditional: 'Traditionele cache'
+    unknown: 'Onbekende cache'
+    virtual: 'Virtuele cache'
+    webcam: 'Webcam cache'
+page:
+  fallback:
+    wrong_locale: 'Deze pagina is niet beschikbaar in jouw taal. Als alternatief tonen wij het in %language%.'
+    not_translated: 'Deze pagina heeft momenteel geen vertaling.'
+array_util:
+  human_lang_implode:
+    and: 'en'

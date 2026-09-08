@@ -1,0 +1,54 @@
+---
+general:
+  error:
+    unknown_error: 'En ukjent feil har oppstått!'
+language:
+  de: 'Tysk'
+  en: 'Engelsk'
+field_notes:
+  btn:
+    delete: Slett
+    delete_selected: 'Slett valgte'
+    log_it: 'Logg den'
+    upload: Last opp
+  #Desc: Y-m-d H:i
+  date_format: 'Y-m-d H:i'
+  error:
+    line_prefix: 'Linje %line%:'
+    wrong_file_format: 'Denne filen ser ut til å ikke være en feltnotatfil.'
+  field_notes: 'Feltnotater'
+  header:
+    actions: Handlinger
+    date: Dato
+    geocache: Cache
+    log_type: 'Loggtype'
+  msg:
+    no_field_notes: 'Du har ingen feltnotater.'
+    upload_new_field_notes: 'Last opp nytt feltnotat'
+  success:
+    deleted: 'Feltnotat slettet.'
+    deleted_multiple: 'Feltnotater slettet.'
+  upload:
+    label:
+      ignore: 'Ignorer feltnotater før %date%'
+    file: 'Feltnotatfil (geocache_visits.txt)'
+    success: 'Feltnotater ferdig lastet opp.'
+geocache:
+  type:
+    drivein: 'Parker og finn Cache'
+    event: 'Event Cache'
+    math: 'Matte/Fysikk Cache'
+    moving: 'Bevegelig Cache'
+    multi: 'Multi Cache'
+    quiz: 'Quiz Cache'
+    traditional: 'Tradisjonell Cache'
+    unknown: 'Ukjent Cache'
+    virtual: 'Virtuell Cache'
+    webcam: 'Webkam Cache'
+page:
+  fallback:
+    wrong_locale: 'Denne siden er ikke tilgjengelig på ditt språk. Som et alternativ viser vi %language% versjonen for deg.'
+    not_translated: 'Denne siden har for øyeblikket ingen oversettelse.'
+array_util:
+  human_lang_implode:
+    and: 'og'

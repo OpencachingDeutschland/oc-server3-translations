@@ -1,0 +1,54 @@
+---
+general:
+  error:
+    unknown_error: 'Une erreur inconnue est survenue !'
+language:
+  de: 'Allemand'
+  en: 'Anglais'
+field_notes:
+  btn:
+    delete: Supprimer
+    delete_selected: 'Supprimer la sélection'
+    log_it: 'Consigner'
+    upload: Envoyer
+  #Desc: Y-m-d H:i
+  date_format: 'd.m.Y H:i'
+  error:
+    line_prefix: 'Ligne %line% :'
+    wrong_file_format: 'Ce fichier ne semble ne pas être un fichier de notes de terrain.'
+  field_notes: 'Notes de terrain'
+  header:
+    actions: Actions
+    date: Date
+    geocache: Géocache
+    log_type: 'Type d''entrée'
+  msg:
+    no_field_notes: 'Vous n’avez pas de notes de terrain.'
+    upload_new_field_notes: 'Envoyer les nouvelles notes de terrain'
+  success:
+    deleted: 'La note de terrain a été supprimée correctement.'
+    deleted_multiple: 'Les notes de terrain ont été supprimées correctement.'
+  upload:
+    label:
+      ignore: 'Ignorer les notes de terrain d''avant le %date%'
+    file: 'Fichier de notes de terrain (geocache_visits.txt)'
+    success: 'Notes de terrain correctement envoyées.'
+geocache:
+  type:
+    drivein: 'Cache « drive-in »'
+    event: 'Cache événement'
+    math: 'Cache maths/physique'
+    moving: 'Cache itinérante'
+    multi: 'Multi-cache'
+    quiz: 'Cache quizz'
+    traditional: 'Cache traditionnelle'
+    unknown: 'Cache de type inconnu'
+    virtual: 'Cache virtuelle'
+    webcam: 'Cache Webcam'
+page:
+  fallback:
+    wrong_locale: 'Cette page n''est pas disponible dans votre langue. En tant qu''alternative, nous affichons la version %language% pour vous.'
+    not_translated: 'Cette page ne comporte actuellement aucune traduction.'
+array_util:
+  human_lang_implode:
+    and: 'et'

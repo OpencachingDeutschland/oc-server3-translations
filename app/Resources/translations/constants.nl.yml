@@ -1,0 +1,7 @@
+---
+field_notes:
+  log_type:
+    1: 'Gevonden'
+    2: 'Niet gevonden'
+    3: 'Schrijf opmerking'
+    1000: 'Onderhoud nodig'

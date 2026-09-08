@@ -1,0 +1,7 @@
+---
+field_notes:
+  log_type:
+    1: 'Gefunden'
+    2: 'Nicht gefunden'
+    3: 'Kommentar schreiben'
+    1000: 'Benötigt Wartung'
